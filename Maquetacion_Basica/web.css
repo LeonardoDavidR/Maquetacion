@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+.header{
+    width: 100%;
+    height: 10%;
+    border: 4px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titulo_1{
+    width: 33%;
+    height: 100%;
+    /* border: 4px solid white;
+    background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_2{
+    width: 33%;
+    height: 100%;
+    /* border: 4px solid white;
+    background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     
+}
+.titulo_3{
+    width: 33%;
+    height: 100%;
+    /* border: 4px solid white;
+    background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 55%;
+    height: 10%;
+    /* border: 4px solid pink;
+    background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.titulo_grande{
+    width: 80%;
+    height: 100%;
+    /* border: 4px solid blue;
+    background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto{
+    width: 100%;
+    height: 80%;
+    /* border: 4px solid red;
+    background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.texto_1{
+    width: 55%;
+    height: 100%;
+    /* border: 4px solid green;
+    background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto_2{
+    width: 100%;
+    height: 90%;
+    /* border: 4px solid black; */
+   
+}
+.texto_texto{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid pink;
+    background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+ 
+}
+.texto_3{
+    width: 100%;
+    height: 10%;
+    /* border: 4px solid red; */
+}
+.imagen{
+    width: 45% ;
+    height: 100%;
+    /* border: 4px solid blue;
+    background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.imagen_1{
+    width: 100%;
+    height: 95%;
+    /* border: 4px solid black;
+    background-color: black; */
+}
+
+.imagen_final{
+    width: 80%;
+    height: 100%;
+    /* border: 4px solid white;
+    background-color: aliceblue; */
+}
+.imagen_2{
+    width: 100%;
+    height: 5%;
+    /* border: 4px solid white;
+    display: flex; */
+}
