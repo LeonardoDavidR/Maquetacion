@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 30vw;
+    height: 100vh;
+    border: 4px solid rgb(170, 167, 167);
+    border-radius: 8px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.header{
+    width: 99%;
+    height: 24%;
+    border: 4px solid rgb(94, 231, 94);
+    border-radius: 8px; 
+}
+.Nav{
+    width: 99%;
+    height: 15%;
+    border: 4px solid rgb(180, 51, 51);
+    border-radius: 8px;
+}
+.void{
+    width: 99%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: space-between;
+}
+.Article{
+    width: 69%;
+    height: 99%;
+    border: 4px solid cyan;
+    border-radius: 8px;
+}
+.Div{
+    width: 30%;
+    height: 99%;
+    border: 4px solid rgb(182, 182, 0);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.Aside1{
+    width: 97%;
+    height: 50%;
+    border: 4px solid rgb(125, 125, 225);
+    border-radius: 8px;
+}
+.Aside2{
+    width: 97%;
+    height: 50%;
+    border: 4px solid rgb(125, 125, 255);
+    border-radius: 8px;
+}
+.Footer{
+    width: 99%;
+    height: 10%;
+    border: 4px solid yellow;
+    border-radius: 4px;
+}
+
+.header_1{
+    width: 99%;
+    height: 20%;
+    border: 4px solid green;
+    border-radius: 8px;
+}
+
+.Footer_1{
+    width: 100%;
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.Section{
+    width: 99%;
+    height: 19%;
+    border: 4px solid purple;
+    border-radius: 8px;
+}
+.Section_1{
+    width: 99%;
+    height: 19%;
+    border: 4px solid purple;
+    border-radius: 8px;
+}
+.Footer_2{
+    width: 99%;
+    height: 10%;
+    border: 4px solid rgb(224, 224, 98) ;
+    border-radius: 8px;
+}
