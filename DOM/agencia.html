@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agencia.css">
+    
+</head>
+<body>
+    <main>
+        
+        <section class = "void">
+            <p>Reservas</p>
+            <p>Galeria</p>
+            <p>Atencion al cliente</p>
+            <p>Hoteles</p>
+        </section>
+        <section class = "headline">
+            <article class="titulo">
+                <p>TravelCo</p>
+            </article>
+        </section>
+        <section class = "description">
+            <article class = "texto">
+                <h4>  El principal objetivo que nos planteamos en  nuestra agencia de viajes es ofrecer a nuestros clientes  los mejores viajes con la mayor calidad y al mejor precio. Nos centraremos tanto en viajes de novios, viajes de estudios, viajes del  imserso como de cualquier particular que quiera pasar unas vacaciones de calidad.
+
+                    Hemos decidido ubicar nuestra oficina por una zona cercana a  la plaza de Toros de Granada. Influyó en esta decisión, que como podemos observar en el mapa en esta zona no hay muchas agencias de viajes en nuestra misma calle lo que nos puede beneficiar bastante a la poca competencia en los alrededores. 
+                   
+                   </h4>
+            </article>
+        </section>
+        <section class = "cuerpo">
+            <div class = "formulario">
+                <p>Contactanos!</p>
+                <div class = "image_for"><img src="./imagenes/Que-llevar-a-un-viaje.jpg" alt=""></div>
+                    <div class = "inputs">
+                        
+                            <input id = "idN" type="Nombre" placeholder="nombre">
+                            <input id = "idO" type="origen" placeholder="origen">
+                            <input id= "idD"  type="destino" placeholder="destino">
+                            <input id= "idNP" type="numero de personas" placeholder="numero personas">
+                            <input id= "idF"  type="fecha" placeholder="fecha">
+                        
+                    </div>
+                    <div class = "botones">
+                        <button onclick="informacion()">solicitar</button>
+                        <button id="Filtrado_1"onclick="filtrado()">filtrar</button>
+                    </div>
+                    <div class = "imprimir">
+                        <p id = "imprimir_2"></p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class = "tarjetas">
+                <img src="./imagenes/caption.jpg" alt="">
+                <img src="./imagenes/Formentor-al-atardecer-Mallorca-Islas-Baleares-by-machbel.jpg" alt="">
+                <img src="./imagenes/miradores-mallorca-1.jpg" alt="">
+                <img src="./imagenes/Palma-de-Mallorca-1.jpg" alt="">
+                <img src="./imagenes/Plaza de la Virgen Valencia.jpg" alt="">
+                <img src="./imagenes/Plaza-Ayuntamiento-Valencia.jpg" alt="">
+            </div>
+        </section>
+        
+
+    </main>
+    <script src="agencia.js"></script>
+</body>
+</html>
