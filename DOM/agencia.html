@@ -37,16 +37,19 @@
                 <div class = "image_for"><img src="./imagenes/Que-llevar-a-un-viaje.jpg" alt=""></div>
                     <div class = "inputs">
                         
-                            <input type="Nombre" placeholder="nombre">
-                            <input type="origen" placeholder="origen">
-                            <input type="destino" placeholder="destino">
-                            <input type="numero de personas" placeholder="numero personas">
-                            <input type="fecha" placeholder="fecha">
+                            <input id = "idN" type="Nombre" placeholder="nombre">
+                            <input id = "idO" type="origen" placeholder="origen">
+                            <input id= "idD"  type="destino" placeholder="destino">
+                            <input id= "idNP" type="numero de personas" placeholder="numero personas">
+                            <input id= "idF"  type="fecha" placeholder="fecha">
                         
                     </div>
                     <div class = "botones">
-                        <button>solicitar</button>
-                        <button>filtrar</button>
+                        <button onclick="informacion()">solicitar</button>
+                        <button id="Filtrado_1"onclick="filtrado()">filtrar</button>
+                    </div>
+                    <div class = "imprimir">
+                        <p id = "imprimir_2"></p>
                     </div>
                     
                 </div>
@@ -62,5 +65,6 @@
         </section>
 
     </main>
+    <script src="agencia.js"></script>
 </body>
 </html>
