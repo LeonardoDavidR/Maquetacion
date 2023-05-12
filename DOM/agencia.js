@@ -32,16 +32,17 @@ const filtrado= () => {
     infoFil.push(filtro)
     console.log(infoFil)
     
-    
-    for(let i = 0; i< infoFil.length; i++){
-        
-        let imprimir = infoFil[i]
+    let imprimir =''
+    for(let i = 0; i< filtro.length; i++){
+       
+        imprimir += `<div>${filtro[i].nombre}</div>
+                        <div>${filtro[i].destino}</div>`
        
     }
+    
+    document.getElementById("imprimir_2").innerHTML += imprimir
 
-    document.getElementById("imprimir_2").innerHTML += imprimir[i]
-
-    // document.getElementById("imprimir_2").innerHTML += imprimir[i]
+   
     
 }       
 
