@@ -11,7 +11,7 @@ main{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-
+    font-weight:bold;
 
 }
 .header{
