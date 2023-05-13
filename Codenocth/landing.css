@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap%27');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+.direcciones{
+    width: 50%;
+    height: 85%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.body_2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background: linear-gradient(to left , rgb(1, 1, 203), rgb(14, 0, 141));
+      
+}
+.titulo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    font-weight: bolder;
+}
+.titulo h1{
+    font-size: 40px;
+}
+
+.descripcion{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.texto{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 30%;
+    height: 100%;
+   
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.tecnologia{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.tecnologia img{
+    width: 16%;
+    height: 80%;
+    display: flex;
+    
+}
+.objetivo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.text_1{
+    width: 25%;
+    height: 50%;
+    
+}
+.text_1 h2{
+    width: 100%;
+    height: 100%;
+}
+.text_2{
+    width: 25%;
+    height: 90;
+  
+}
+.text_2 p{
+    width: 100%;
+    height: 100%;
+}
+.text_3{
+    width: 25%;
+    height: 50%;
+    
+}
+.text_3 h2{
+    width: 100%;
+    height: 100%;
+}
+.text_4{
+    width: 25%;
+    height: 50%;
+    
+}
+.text_4 p{
+    width: 100%;
+    height: 100%;
+}
+.text_5{
+    width: 25%;
+    height: 50%;
+    
+}
+.text_5 h2{
+    width: 100%;
+    height: 100%;
+}
+.text_6{
+    width: 25%;
+    height: 50%;
+    
+}
+.text_6 p{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
