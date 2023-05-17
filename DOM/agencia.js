@@ -29,10 +29,11 @@ const filtrado= () => {
     let filtro = info.filter((filtr) => (filtr.destino == 'mallorca')|| (filtr.destino == 'galicia') || filtr.destino == 'canarias')
         
     
-    infoFil.push(filtro)
+    // infoFil.push(filtro)
     console.log(infoFil)
     
-    let imprimir =''
+    let imprimir ='';
+    document.getElementById("imprimir_2").innerHTML=""
     for(let i = 0; i< filtro.length; i++){
        
         imprimir += `<div>${filtro[i].nombre}</div>
@@ -40,7 +41,7 @@ const filtrado= () => {
        
     }
     
-    document.getElementById("imprimir_2").innerHTML += imprimir
+    document.getElementById("imprimir_2").innerHTML = imprimir
 
    
     
